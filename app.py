@@ -114,4 +114,5 @@ if st.button("Evaluar"):
         st.markdown("**Recomendación:** Tacto rectal, PSA urgente, ecografía, flujometría. Evaluar función sexual y dolor pélvico. Derivación urológica.")
 
     st.markdown("---")
-    st.markdown("🧠 *Este sistema fue creado por Joel, educador y desarrollador de herramientas digitales para la salud comunitaria.*")
+
+    st.markdown("🧠 *Sistema creado por Joel, educador y desarrollador de herramientas digitales. Compartelo con tus familiares y amigos.*")
