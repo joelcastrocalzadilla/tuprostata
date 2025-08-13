@@ -148,3 +148,13 @@ with st.expander("📘 Más información sobre la próstata"):
         </ul>
     </div>
     """, unsafe_allow_html=True)
+# --- Separador visual ---
+st.markdown("---")
+
+# --- Nota ética y legal ---
+st.markdown("### 🧭 Nota ética y legal")
+st.markdown("""
+Este contenido educativo se basa en fuentes públicas y confiables.  
+Las estadísticas y enlaces aquí presentados son utilizados con fines informativos,  
+sin ánimo de lucro ni apropiación de propiedad intelectual.
+""")
