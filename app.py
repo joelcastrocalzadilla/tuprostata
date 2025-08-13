@@ -116,3 +116,35 @@ if st.button("Evaluar"):
     st.markdown("---")
 
     st.markdown("🧠 *Sistema creado por Joel, educador y desarrollador de herramientas digitales. Compartelo con tus familiares y amigos.*")
+with st.expander("📘 Más información sobre la próstata"):
+    st.markdown("""
+    <div style="background-color:#f0f8ff;padding:20px;border-radius:10px;">
+        <h2 style="text-align:center;">🌍 Estadísticas Globales sobre el Cáncer de Próstata</h2>
+        <p style="font-size:16px;">
+            <em>“Más de <strong>1.4 millones</strong> de hombres son diagnosticados con cáncer de próstata cada año, y cerca de <strong>375,000</strong> fallecen por esta causa.”</em><br>
+            <span style="font-size:14px;">— Globocan 2020, OMS</span>
+        </p>
+        <ul style="font-size:16px;">
+            <li>🧍‍♂️ <strong>1 de cada 8 hombres</strong> será diagnosticado en algún momento de su vida.</li>
+            <li>🧪 La <strong>detección temprana</strong> puede aumentar la tasa de curación hasta el <strong>75%</strong>.</li>
+            <li>📉 La <strong>mortalidad ha disminuido</strong> significativamente en países con campañas de prevención.</li>
+        </ul>
+        <hr>
+        <h3>🧠 Reflexión Educativa</h3>
+        <p style="font-size:16px;">
+            La próstata no solo es una glándula: es un símbolo de salud masculina, de cuidado preventivo, de diálogo intergeneracional.<br>
+            Desde la adolescencia, el cuerpo masculino merece atención, ciencia y rituales de autocuidado.
+        </p>
+        <blockquote style="font-size:16px;color:#555;">
+            En este espacio, promovemos el conocimiento como herramienta de transformación.<br>
+            Cada clic, cada lectura, cada test es un paso hacia una comunidad más sana y consciente.
+        </blockquote>
+        <hr>
+        <h4>🔗 Fuentes consultadas:</h4>
+        <ul style="font-size:14px;">
+            <li><a href="https://gco.iarc.fr/today/data/factsheets/cancers/27-Prostate-fact-sheet.pdf" target="_blank">Globocan 2020 – Prostate Cancer</a></li>
+            <li><a href="https://www.cancer.org/cancer/prostate-cancer/about/key-statistics.html" target="_blank">American Cancer Society – Prostate Cancer Statistics</a></li>
+            <li><a href="https://www.minsalud.gov.co" target="_blank">Ministerio de Salud de Colombia – Estadísticas Oncológicas</a></li>
+        </ul>
+    </div>
+    """, unsafe_allow_html=True)
